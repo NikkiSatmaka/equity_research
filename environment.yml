@@ -1,0 +1,53 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - pip
+  - jupyter
+
+  # static analysis, linters
+  - black
+  - flake8-black
+  - python-lsp-black
+  - black-jupyter
+  - isort
+  - pylint
+  - bandit
+  - mypy
+
+  - click
+  - tqdm
+  - pytz
+  - arrow
+  - requests
+  - urllib3
+  - tomli
+
+  # numerical python
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+
+  - pymongo
+  - uvloop
+  - aiohttp
+  - aiohttp-retry
+  - openpyxl
+
+  # speed things up
+  - pandarallel
+  - dask
+  - pyspark
+
+  - seaborn
+  - dash
+  - plotly
+
+  - yfinance
+
+  - pip:
+    - aiolimiter
